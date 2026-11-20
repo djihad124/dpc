@@ -1,5 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
   <application android:label="Policy" android:testOnly="true">
+    <activity android:name=".Apply" android:exported="true"
+        android:theme="@android:style/Theme.NoDisplay"/>
     <receiver android:name=".Admin" android:exported="true"
         android:permission="android.permission.BIND_DEVICE_ADMIN">
       <meta-data android:name="android.app.device_admin"
